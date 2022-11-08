@@ -1,0 +1,9 @@
+train:
+    seed: 23
+data:
+    root: "./data/modelnet40_normal_resampled"
+    npoint: 1024
+    train_transform: {}
+    test_transform: {}
+    batch_size: 100
+model: "oriented_dgcnn"

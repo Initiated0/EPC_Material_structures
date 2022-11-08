@@ -1,0 +1,5 @@
+train:
+    seed: 23
+data:
+    root: "./data/modelnet40_normal_resampled"
+    npoint: 1024

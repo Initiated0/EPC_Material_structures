@@ -1,0 +1,31 @@
+train:
+    seed: 23
+    max_epochs: 20
+    optimizer:
+        type: "adam"
+        lr: 0.0001
+        weight_decay: 0
+        beta1: 0.9
+        beta2: 0.999
+    optimizer_args: {}
+    scheduler:
+        type: "plateau"
+        factor: 0.8
+        patience: 10
+        min_lr: 0.00001
+data:
+    root: "./data/modelnet40_normal_resampled"
+    npoint: 1024
+    train_transform: {}
+    test_transform: {}
+    batch_size: 100
+model: 
+    type: "oriented_dgcnn"
+    n_knn: 10
+    num_classes: 40
+    frame:
+        hidden_dim_s: 30
+        hidden_dim_v: 15
+        num_layers: 10
+        num_frames: 40
+        knn: 20

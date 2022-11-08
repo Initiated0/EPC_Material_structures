@@ -1,0 +1,6 @@
+[2022-11-07 13:58:16,745::train::INFO] Namespace(config='config.yml', device='cuda', logdir='./logs', debug=False, tag='', resume=None, resume_lr=None)
+[2022-11-07 13:58:16,745::train::INFO] {'train': {'seed': 23, 'optimizer': 'AdamW'}, 'data': {'root': './data/modelnet40_normal_resampled', 'npoint': 1024, 'train_transform': {}, 'test_transform': {}, 'batch_size': 100}, 'model': {'type': 'oriented_dgcnn', 'n_knn': 10, 'num_classes': 40, 'frame': {'hidden_dim_s': 30, 'hidden_dim_v': 15, 'num_layers': 10, 'num_frames': 40, 'knn': 20}}}
+[2022-11-07 13:58:16,745::train::INFO] Loading datasets...
+[2022-11-07 13:58:16,758::train::INFO] Training data: 9843
+[2022-11-07 13:58:16,758::train::INFO] Test data: 2468
+[2022-11-07 13:58:16,758::train::INFO] Building model...

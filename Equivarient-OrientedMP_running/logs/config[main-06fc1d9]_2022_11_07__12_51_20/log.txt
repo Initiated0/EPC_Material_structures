@@ -1,0 +1,3 @@
+[2022-11-07 12:51:20,359::train::INFO] Namespace(config='config.yml', device='cuda', logdir='./logs', debug=False, tag='', resume=None, resume_lr=None)
+[2022-11-07 12:51:20,359::train::INFO] {'train': {'seed': 23}, 'data': {'root': './data/modelnet40_normal_resampled', 'npoint': 1024, 'train_transform': {}, 'test_transform': {}}}
+[2022-11-07 12:51:20,359::train::INFO] Loading datasets...
